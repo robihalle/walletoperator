@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+.venv/
+venv/
+
+# Databases & backups
+*.db
+*.db.bak*
+backups/
+uploads/
+uploads.bak*
+
+# Geo / generated data
+geoip/
+world.geojson
+
+# Logs
+*.log
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Broken / temp files
+app.py.BROKEN*
+
+# app.py backups
+app.py.bak.*
