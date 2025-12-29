@@ -32,3 +32,32 @@ app.py.BROKEN*
 
 # app.py backups
 app.py.bak.*
+
+# --- sensitive / server specific ---
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.pfx
+*.p12
+*.csr
+
+# nginx/systemd configs may contain domains/IPs -> do NOT commit
+deploy/nginx/
+deploy/systemd/
+
+# any local server artifacts
+*.log
+*.sqlite
+*.db
+*.db-journal
+operator_profiles.db*
+uploads/
+geoip/
+backups/
+
+# keep ignoring venv and caches
+.venv/
+venv/
+__pycache__/
