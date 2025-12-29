@@ -35,3 +35,6 @@ app.py.BROKEN.*
 .DS_Store
 .vscode/
 .idea/
+
+# local backups (never commit)
+backups/
