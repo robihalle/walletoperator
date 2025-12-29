@@ -61,3 +61,30 @@ backups/
 .venv/
 venv/
 __pycache__/
+
+# ---- production/private stuff (DO NOT COMMIT) ----
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+*id_rsa*
+*id_ed25519*
+*.sqlite
+*.sqlite3
+*.db
+operator_profiles.db*
+uploads/
+uploads.bak.*/
+backups/
+geoip/
+world.geojson
+*.log
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
